@@ -5,7 +5,7 @@ This repository contains the source code for [my resume (pdf)](https://bitbucket
 To build the document go to the command line and type:
 
 ```
-$ git clone https://jlhonora@bitbucket.org/jlhonora/resume.git
+$ git clone https://jlhonora@github.com/jlhonora/resume.git
 $ ./build
 ```
 
