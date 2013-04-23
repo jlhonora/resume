@@ -1,6 +1,6 @@
 Jose Luis Honorato - Resume
 ===========================
-This repository contains the source code for [my resume (pdf)](https://bitbucket.org/jlhonora/resume/src). Feel free to fork it and modify it. You need to have LaTeX installed to build it.
+This repository contains the source code for [my resume (pdf)](https://github.com/jlhonora/resume/src/resume.pdf). Feel free to fork it and modify it. You need to have LaTeX installed to build it.
 
 To build the document go to the command line and type:
 
