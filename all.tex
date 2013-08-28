@@ -1,0 +1,43 @@
+%-----------------------------------------
+% Jose Luis Honorato
+% Resumé
+% Based on Michael Wright's resume
+% URL: http://github.com/mdwrigh2/resume
+% This document is covered under the Creative Commons Attribution 3.0 Unported License
+%-----------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,letterpaper,final]{moderncv}
+\usepackage{fontspec}
+\usepackage{wrapfig}
+\usepackage{graphics}
+\usepackage{pdfpages}
+%\usepackage{graphicx}
+\moderncvtheme{classic}
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{2cm}
+\AtBeginDocument{\recomputelengths}
+% \usepackage[utf8]{inputenc}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+% Personal Information 
+\firstname{Jose L.}
+\familyname{Honorato}
+\address{4383 Pdte. Errazuriz, dep 902}{Las Condes, Santiago, Chile}
+\mobile{+56 9 92619739}
+\email{jlhonora@ing.puc.cl}
+
+\title{Electrical Engineer, M. Sc.}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\includepdf{cover.pdf}
+\includepdf{resume.pdf}
+
+\end{document}
