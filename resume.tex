@@ -17,7 +17,7 @@
 \moderncvtheme{classic}
 
 % DOCUMENT LAYOUT
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.87]{geometry}
 \setlength{\hintscolumnwidth}{2cm}
 \AtBeginDocument{\recomputelengths}
 % FONTS
@@ -52,19 +52,23 @@
 
 \maketitle 
 
-\section{Education}
-\cventry{June 2010 - August 2011}{Master of Science in Electrical Engineering, Pontificia Universidad Cat\'olica}{Santiago, Chile}{}{}{Graduated \textit{Summa Cum Laude}}
-\cventry{March 2005 - June 2010}{Electrical Engineering, Pontificia Universidad Cat\'olica}{Santiago, Chile}{}{}{Top 5\% of the class. Direct GPA conversion does not apply.}
+\vspace{-0.5cm}
 \section{Experience} 
+  \cventry{December 2012 - Present}{Software Developer}{Beelinkme}{Santiago, Chile}{}{
+    \begin{itemize}
+      \item Developed a generic platform for wireless sensor networks. Increased battery life by 10x, decreased cellular data usage by 4x. Used Node.js to achieve actuator responses faster than 0.5s.
+      \item Tasks: firmware programming, task automation, system reliability.
+    \end{itemize}
+  }
   \cventry{July 2011 - Present}{Embedded Systems Engineer - Co-founder}{Satelinx}{Santiago, Chile}{}{
     \begin{itemize}
-      \item Hardware design, mainly focused on GPS-tracking devices and Iridium network communications. Grew from zero to stable revenue in 12 months. Developed the first commercial version of our main product in 6 weeks.
-      \item Responsible for the firmware programming and PCB design. Worked closely with the manufacturing team.
+      \item Hardware design, mainly focused on GPS-tracking devices and satellite communications. Grew from zero to stable revenue in 12 months. Shipped the first product in 6 weeks (Design + manufacturing + testing).
+      \item Tasks: firmware programming, PCB design and hardware automated testing.
     \end{itemize}
   }
   \cventry{August 2011 - Present}{Part-time lecturer}{Pontificia Universidad Cat\'olica}{Santiago, Chile}{}{
     \begin{itemize}
-      \item Lecturer for the Computers Architecture Lab course. Theoretical/practical content involving embedded systems, such as msp430 devices and embedded boards (BeagleBoard, Gumstix, RaspberryPi). Redesigned the course to include more up-to-date hardware.
+      \item Lecturer for the Computers Architecture Lab course. Theoretical/practical content involving embedded systems, such as msp430 devices and embedded boards (BeagleBoard, Gumstix, RaspberryPi). Redesigned course to include more up-to-date hardware.
     \end{itemize}
   }
   \cventry{June 2010 - August 2011}{Researcher}{Biomedical Imaging Center}{Santiago, Chile}{}{
@@ -78,32 +82,35 @@
       \item Developed a business plan regarding the mobile advertising industry. Worked on the technical guidelines for the implementation.
     \end{itemize}
   }
-\section{Other projects}
-  \cvlistitem{Co-founded the Mobile and Embedded Computing Laboratory, PUC. The purpose of this laboratory is to give students a hands-on experience on mobile apps development.}
-  \cvlistitem{Participant at the Sika Solar Experience. Sponsored trip to photovoltaic plants throughout Europe.}
+\section{Education}
+\cventry{June 2010 - August 2011}{Master of Science in Electrical Engineering, Pontificia Universidad Cat\'olica}{Santiago, Chile}{}{}{Graduated \textit{Summa Cum Laude}}
+\cventry{March 2005 - June 2010}{Electrical Engineering, Pontificia Universidad Cat\'olica}{Santiago, Chile}{}{}{Top 5\% of the class. Direct GPA conversion does not apply.}
+%\section{Other projects}
+  %\cvlistitem{Co-founded the Mobile and Embedded Computing Laboratory, PUC. The purpose of this laboratory is to give students a hands-on experience on mobile apps development.}
+  %\cvlistitem{Participant at the Sika Solar Experience. Sponsored trip to photovoltaic plants throughout Europe.}
 \section{Computer Skills} 
-  \cvline{Languages:}{C (2.5 years), Matlab (4 years), Python (2.5 years), Bash (2 years)}
+  \cvline{Languages:}{C (2.5 years), Matlab (4 years), Python (2.5 years), Bash (2 years).}
   \cvline{Hardware:}{PCB layout experience, RF Design. Protocols: SPI, I2C, USB, UART.}
-  \cvline{}{msp430 (2 years), AVR ATmega (1 year), PIC 16 and 18 (2 years), ARM Cortex M4 (1 year)}
-  \cvline{Platforms:}{Mac OS X and Ubuntu Linux (intermediate)}
-  \cvline{Misc:}{Image Processing, sensor integration.}
+  \cvline{}{msp430 (2 years), AVR ATmega (1 year), PIC 16 and 18 (2 years), ARM Cortex M4 (1 year).}
+  \cvline{Platforms:}{Mac OS X and Ubuntu Linux.}
+  \cvline{Others:}{Image Processing, sensor integration.}
 \section{Awards}
-  \cvlistitem{Best Graduated Electrical Engineer, \textit{Chilean College of Engineers}, June 2012}
+  \cvlistitem{Best Electrical Engineer, \textit{Chilean College of Engineers}, June 2012}
   \cvlistitem{Magna Cum Laude Award, \textit{ISMRM}, May 2012}
   \cvlistitem{Best Electrical Engineering Thesis, \textit{EE Department, PUC}, September 2011}
   \cvlistitem{Best Intern, \textit{Infosys}, March 2010}
 \section{Extras}
   \cvlistitem{LinkedIn profile: \href{http://www.linkedin.com/in/jlhonora}{http://www.linkedin.com/in/jlhonora}}
   \cvlistitem{Github account: \href{http://github.com/jlhonora}{http://github.com/jlhonora}}
-  \cvlistitem{Satelinx: \href{http://satelinx.com}{http://satelinx.com}}
-  \cvlistitem{Fork my resume here: \href{http://github.com/jlhonora/resume}{http://github.com/jlhonora/resume}}
-  \begin{wrapfigure}{r}{0.25\textwidth}
-     \vspace{-3.3cm}
-     \begin{center}
-     Scan the code for my\\
-     contact information
-       \includegraphics[width=0.25\textwidth]{qr}
-     \end{center}
-  \end{wrapfigure}
+  %\cvlistitem{Satelinx: \href{http://satelinx.com}{http://satelinx.com}}
+  %\cvlistitem{Fork my resume here: \href{http://github.com/jlhonora/resume}{http://github.com/jlhonora/resume}}
+  %\begin{wrapfigure}{r}{0.25\textwidth}
+  %   \vspace{-3.3cm}
+  %   \begin{center}
+  %   Scan the code for my\\
+  %   contact information
+  %     \includegraphics[width=0.25\textwidth]{qr}
+  %   \end{center}
+  %\end{wrapfigure}
 
 \end{document}

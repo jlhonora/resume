@@ -393,7 +393,7 @@
     \@startline
     \ignorespaces
   \else
-    \vskip-\parskip    % The next thing to be contributed will be a paragraph.
+    \vskip-\parskip-0.5cm    % The next thing to be contributed will be a paragraph.
 		       % Right before being contributed though a \vskip\parskip
 		       % will be inserted.  This is to negate it.
 		       %
@@ -771,7 +771,7 @@
 %    body
 % with everything in the left of its column
 
-\@secpenalty = -500
+\@secpenalty = -300
 \topmargin 0pt
 \headheight 0pt
 \headsep 0pt
