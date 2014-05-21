@@ -8,3 +8,6 @@ release/
 all.pdf
 cover.pdf
 .DS_Store
+*.bbl
+*.blg
+*.xml
